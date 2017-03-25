@@ -12,12 +12,26 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destination = segue.destination as! DirectionViewController
+        if segue.identifier == "North" {
+            destination.directionText = "North"
+        } else if segue.identifier == "East" {
+            destination.directionText = "East"
+        } else if segue.identifier == "West" {
+            destination.directionText = "West"
+        } else if segue.identifier == "South" {
+            destination.directionText = "South"
+        }
+    }
+    
+    @IBAction func unwindToMainVC(segue: UIStoryboardSegue) { }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 

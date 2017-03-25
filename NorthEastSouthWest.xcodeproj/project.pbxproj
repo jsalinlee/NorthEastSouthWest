@@ -12,6 +12,7 @@
 		B20E2CAA1E7E289900D5953D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20E2CA81E7E289900D5953D /* Main.storyboard */; };
 		B20E2CAC1E7E289900D5953D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20E2CAB1E7E289900D5953D /* Assets.xcassets */; };
 		B20E2CAF1E7E289900D5953D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20E2CAD1E7E289900D5953D /* LaunchScreen.storyboard */; };
+		B20E2CB71E7E2C5000D5953D /* DirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E2CB61E7E2C5000D5953D /* DirectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B20E2CAB1E7E289900D5953D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B20E2CAE1E7E289900D5953D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B20E2CB01E7E289900D5953D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20E2CB61E7E2C5000D5953D /* DirectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				B20E2CA41E7E289900D5953D /* AppDelegate.swift */,
 				B20E2CA61E7E289900D5953D /* ViewController.swift */,
+				B20E2CB61E7E2C5000D5953D /* DirectionViewController.swift */,
 				B20E2CA81E7E289900D5953D /* Main.storyboard */,
 				B20E2CAB1E7E289900D5953D /* Assets.xcassets */,
 				B20E2CAD1E7E289900D5953D /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				B20E2CA71E7E289900D5953D /* ViewController.swift in Sources */,
 				B20E2CA51E7E289900D5953D /* AppDelegate.swift in Sources */,
+				B20E2CB71E7E2C5000D5953D /* DirectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
